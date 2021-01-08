@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 32px;
+}
+.themeSwicher{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  color: var(--text-color-secondary);
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
